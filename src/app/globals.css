@@ -1,0 +1,49 @@
+/* Tailwind v4 */
+@import "tailwindcss";
+
+/* --- Design tokens (dark by default) --- */
+:root {
+  color-scheme: dark;
+  --ink:    #e6edf3;
+  --mute:   #9aa4af;
+  --panel:  #0b0f14;
+  --canvas: #05080c;
+  --accent: #3a66f7;
+  --accent:#4f7cff;
+  --accent-3:#ff9f6e;
+  --bg: rgba(11, 15, 21, 0.85);         /* your canvas */
+  --panel: #111827;       /* panels/nav */
+  --ink: #e5e7eb;         /* text */
+  --mute: #9aa3b2;        /* muted text */
+  --accent: #4f7cff;      /* blue */
+  --accent-3: #ff9f6e;    /* sunset/orange (active underline) */
+
+  --bg:#060913; /* deep space */
+  --panel:#0c1224; /* nebula panel */
+  --ink:#edf2ff; /* near-white text */
+  --muted:#90a4c7; /* desaturated slate */
+  --line:#1a2343; /* panel border */
+  --accent:#3ad5ff; /* ion cyan */
+  --accent-2:#a78bfa; /* violet */
+  --accent-3:#ffb86b; /* amber */
+}
+body{ background: radial-gradient(1200px 600px at 70% -10%, rgba(58,213,255,0.08), transparent 60%),
+radial-gradient(1000px 500px at 10% 110%, rgba(167,139,250,0.06), transparent 60%),
+#060913; color:var(--ink);
+}
+
+
+/* Base */
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--ink); }
+::selection { background: var(--accent); color: #fff; }
+* { outline-color: var(--accent); }
