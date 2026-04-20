@@ -4,14 +4,11 @@ export default function FirstCarRail() {
   return (
     <StoryRail
       items={[
-        { src: "/images/first-car/1.jpg" },
-        { src: "/images/first-car/2.jpg" },
-        { src: "/images/first-car/3.jpg" },
-        { src: "/images/first-car/4.jpg" },
+      
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/first-car.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/door.mp4",
         },
       ]}
     />
