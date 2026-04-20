@@ -126,6 +126,7 @@ export default function StoryRail({
     isPortrait ? "object-contain" : "object-cover"
   }`}
   controls
+  muted
   playsInline
   preload="metadata"
   poster={item.poster}
