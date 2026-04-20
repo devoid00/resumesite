@@ -45,24 +45,30 @@ function StorySection({
 export default function AboutPage() {
   return (
     <main className="pb-24">
-      <section className="mx-auto max-w-5xl px-6 py-16 md:px-10 md:py-24">
-        <p className="text-sm uppercase tracking-[0.28em] text-[var(--accent)]">
-          About
-        </p>
+      <section className="mx-auto max-w-5xl px-6 py-16 text-center md:px-10 md:py-24">
+  <p className="text-sm uppercase tracking-[0.28em] text-[var(--accent)]">
+    About
+  </p>
 
-        <h1 className="mt-4 maxw-4xl text-4xl font-semibold leading-tight text-[var(--ink)] md:text-6xl">
-           My story through systems, from repair to integration.
-        </h1>
+  <h1 className="mx-auto mt-4 max-w-4xl text-4xl font-semibold leading-tight text-[var(--ink)] md:text-6xl">
+    My story through systems, from repair to integration.
+  </h1>
 
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--mute)]">
-          My work has developed through hands-on system building — starting with
-          small-scale electronics, expanding into vehicle restoration and full
-          electrical integration, and growing into more formal troubleshooting,
-          testing, and engineering work. What ties it all together is a
-          consistent interest in understanding how real systems behave, how they
-          fail, and how to return them to reliable operation.
-        </p>
-      </section>
+  <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-red-400/80">
+    This page is structured as a narrative of how I got into building and
+    working on systems. If you'd rather skim, feel free to scroll through the
+    media sections to quickly see the projects and work I've done.
+  </p>
+
+  <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-[var(--mute)]">
+    My work has developed through hands-on system building — starting with
+    small-scale electronics, expanding into vehicle restoration and full
+    electrical integration, and growing into more formal troubleshooting,
+    testing, and engineering work. What ties it all together is a consistent
+    interest in understanding how real systems behave, how they fail, and how
+    to return them to reliable operation.
+  </p>
+</section>
 
       <StorySection title="Early Systems Work" first>
         <p>
