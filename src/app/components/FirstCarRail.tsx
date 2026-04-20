@@ -7,28 +7,28 @@ export default function FirstCarRail() {
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/test-clip5.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip5.mp4",
         },
        {
           type: "video",
           layout: "portrait",
-          src: "/videos/test-clip.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip.mp4",
         },
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/test-clip3.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip3.mp4",
         },
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/test-clip4.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip4.mp4",
         },
 
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/test-clip2.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip2.mp4",
         },
       ]}
     />
