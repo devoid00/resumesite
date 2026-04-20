@@ -50,7 +50,7 @@ export default function AboutPage() {
           About
         </p>
 
-        <h1 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight text-[var(--ink)] md:text-6xl">
+        <h1 className="mt-4 maxw-4xl text-4xl font-semibold leading-tight text-[var(--ink)] md:text-6xl">
            My story through systems, from repair to integration.
         </h1>
 
@@ -120,7 +120,7 @@ export default function AboutPage() {
 
       <StorySection title="Salvage Title Reconstruction">
         <p>
-          The Jeep project raised the stakes because the goal was not just to
+          At 17, the Jeep project raised the stakes because the goal was not just to
           make the vehicle run and drive, but to bring it back to certified,
           road-legal condition. That meant working toward state inspection and
           rebuilt-title requirements rather than relying only on my own
