@@ -154,25 +154,26 @@ export default function AboutPage() {
 
       <StorySection title="Electronics and Signal-Level Debugging">
         <p>
-          My work in amplifier repair brought that same mindset into a more
-          explicitly electrical setting. It required structured signal tracing,
-          rail verification, bias analysis, protection-circuit awareness, and
-          component-level diagnosis across both solid-state and tube platforms.
-        </p>
+  After graduating with a degree in physics, I began working in amplifier
+  repair, bringing that same mindset into a more explicitly electrical
+  setting. It required structured signal tracing, rail verification, bias
+  analysis, protection-circuit awareness, and component-level diagnosis
+  across both solid-state and tube platforms.
+</p>
 
-        <p>
-          It was also where troubleshooting became more disciplined. Rather than
-          simply replacing what appeared faulty, the work required isolating
-          failure modes, validating assumptions with measurement, and
-          understanding why a system had failed before calling it repaired.
-        </p>
+<p>
+  It was also where troubleshooting became more disciplined. Rather than
+  simply replacing what appeared faulty, the work required isolating
+  failure modes, validating assumptions with measurement, and
+  understanding why a system had failed before calling it repaired.
+</p>
 
-        <p>
-          In practice, this included reliability-critical work for professional
-          touring acts, where turnaround time and repair quality both mattered.
-          That environment reinforced the importance of methodical testing,
-          technical judgment, and stable operation under real-world demands.
-        </p>
+<p>
+  In practice, this included reliability-critical work for professional
+  touring acts, where turnaround time and repair quality both mattered.
+  That environment reinforced the importance of methodical testing,
+  technical judgment, and stable operation under real-world demands.
+</p>
       </StorySection>
 
       <RailShell>
