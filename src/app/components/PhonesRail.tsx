@@ -7,7 +7,7 @@ export default function PhonesRail() {
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/phone.mp4",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/phone.mp4",
         },
         { src: "/images/phones/IMG_3869.jpg" },
         { src: "/images/phones/IMG_3870.jpg" },
