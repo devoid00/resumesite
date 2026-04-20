@@ -6,6 +6,7 @@ import { useRef, useState } from "react";
 export type Item = {
   title?: string;
   subtitle?: string;
+  label?: string;
   type?: "image" | "video";
   src: string;
   poster?: string;
@@ -108,6 +109,12 @@ export default function StoryRail({
                     : "w-[280px] md:w-[320px]"
                 }`}
               >
+                {item.label && (
+                  <div className="mb-2 text-center text-[10px] uppercase tracking-[0.2em] text-[var(--accent)] opacity-80">
+                    {item.label}
+                  </div>
+                )}
+
                 <div
                   className={`relative overflow-hidden rounded-xl ${
                     isPortrait ? "aspect-[9/16]" : "aspect-[4/3]"
@@ -115,24 +122,21 @@ export default function StoryRail({
                 >
                   {item.type === "video" ? (
                     <video
-                      className={`h-full w-full rounded-xl ${
-                        isPortrait ? "object-contain" : "object-cover"
-                      }`}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      controls
-                      preload="metadata"
-                      poster={item.poster}
-                    >
-                      <source src={item.src} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+  className={`h-full w-full rounded-xl ${
+    isPortrait ? "object-contain" : "object-cover"
+  }`}
+  controls
+  playsInline
+  preload="metadata"
+  poster={item.poster}
+>
+  <source src={item.src} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
                   ) : (
                     <Image
                       src={item.src}
-                      alt={item.title ?? ""}
+                      alt={item.title ?? item.label ?? ""}
                       fill
                       className={`rounded-xl ${
                         isPortrait ? "object-contain" : "object-cover"

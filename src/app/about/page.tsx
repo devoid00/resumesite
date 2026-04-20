@@ -114,26 +114,8 @@ export default function AboutPage() {
       </section>
       <PorscheRail />
 
-      <section className="mx-auto max-w-4xl px-6 py-12 md:px-10">
-        <h2 className="text-3xl font-semibold text-[var(--ink)]">
-          Additional Projects
-        </h2>
-        <div className="mt-4 space-y-4 text-lg leading-8 text-[var(--mute)]">
-          <p>
-            Not every project I have done fits neatly into one long technical
-            story, but many of the smaller builds still say a lot about how I
-            work. They usually start the same way: I see a problem, think
-            through a solution, and then figure out how to make it real.
-          </p>
-          <p>
-            This section is where I want to include one-off builds and practical
-            work like the lamp, the doggy door, the moving wall, and the patio.
-            They may be smaller in scale, but they still reflect the same habit
-            of building, improving, and executing with intention.
-          </p>
-        </div>
-      </section>
-      <ProjectsRail />
+
+     
 
       <section className="mx-auto max-w-4xl px-6 py-12 md:px-10">
         <h2 className="text-3xl font-semibold text-[var(--ink)]">

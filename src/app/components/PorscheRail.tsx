@@ -11,7 +11,7 @@ export default function FirstCarRail() {
         {
           type: "video",
           layout: "portrait",
-          src: "/videos/first-car.mp4",
+          src: "",
         },
       ]}
     />
