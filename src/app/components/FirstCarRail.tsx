@@ -4,17 +4,17 @@ export default function FirstCarRail() {
   return (
     <StoryRail
       items={[
-        {
-          type: "video",
-          layout: "portrait",
-          label:"Full Rewire",
-          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip5.mp4",
-        },
        {
           type: "video",
           layout: "portrait",
           label:"Back Seat Restoration",
           src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip.mp4",
+        },
+        {
+          type: "video",
+          layout: "portrait",
+          label:"Full Rewire",
+          src: "https://hfog4ru2flp5mmzd.public.blob.vercel-storage.com/test-clip5.mp4",
         },
         {
           type: "video",
